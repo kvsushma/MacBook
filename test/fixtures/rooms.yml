@@ -1,0 +1,14 @@
+temporary_room:
+  name: Temporary Room
+  status: temporary
+
+unrestricted_room:
+  name: Unrestricted Room
+  status: unrestricted
+  user: jerry
+
+restricted_room:
+  name: Restricted Room
+  status: restricted
+  password: <%= BCrypt::Password.create('foobar') %>
+  user: kramer
