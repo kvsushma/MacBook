@@ -36,7 +36,7 @@ end
 # authentication
 gem 'devise',            '~> 4.3'
 gem 'devise_token_auth', '~> 0.1.42'
-gem 'omniauth',          '~> 1.7'
+gem 'omniauth',          '~> 1.9'
 
 # api
 gem 'rack-cors', '~> 0.4.1'
